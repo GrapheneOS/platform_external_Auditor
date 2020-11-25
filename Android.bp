@@ -1,6 +1,0 @@
-android_app_import {
-    name: "Auditor",
-    product_specific: true,
-    presigned: true,
-    apk: "prebuilt/Auditor.apk"
-}
