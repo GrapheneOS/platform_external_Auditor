@@ -8,14 +8,14 @@ android_app_import {
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 
     required: [
-        "whitelist_app.attestation.auditor.xml"
+        "etc_sysconfig_app.attestation.auditor.xml"
     ]
 }
 
 prebuilt_etc {
-    name: "whitelist_app.attestation.auditor.xml",
-    product_specific: true,
+    name: "etc_sysconfig_app.attestation.auditor.xml",
+    src: "etc/sysconfig/app.attestation.auditor.xml",
     sub_dir: "sysconfig",
-    src: "whitelist_app.attestation.auditor.xml",
     filename_from_src: true,
+    product_specific: true,
 }
