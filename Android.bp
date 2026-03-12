@@ -2,7 +2,7 @@ android_app_import {
     name: "Auditor",
     product_specific: true,
 
-    apk: "prebuilt/Auditor.apk",
+    apk: "prebuilt/app-release.apk",
     preprocessed: true,
 
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
